@@ -1,5 +1,9 @@
 .empower{
-    @apply bg-[#2D3142] text-white py-8 px-5 rounded-lg;
+    @apply bg-[#2D3142] text-white py-8 px-5 rounded-lg hover:bg-[#3c4156] hover:scale-105 transition-all;
+}
+
+.service-box{
+    @apply hover:bg-[#e0e0e0] py-10 px-5 transition-all rounded-lg hover:border border-solid border-[#cbcbcb] hover:scale-105;
 }
 
 @tailwind base;
